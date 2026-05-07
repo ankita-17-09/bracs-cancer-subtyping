@@ -1,9 +1,11 @@
-## Files
-- `confidence_filtering.py` - Main implementation with confidence thresholding
-- `final_results.txt` - Accuracy results
-- `best_baseline.pth` - **Not uploaded to GitHub** (44MB model file). 
-  Contact author for access or train your own using the code.
+## Important Note
+- **Baseline model** trained on full BRACS training set (3,657 images)
+- **Validation** performed on held-out validation set (312 images)
+- **Full dataset** available at: https://www.bracs.icar.cnr.it/ (requires request)
 
-## How to Run
-1. Train baseline: `python baseline.py` (saves `best_baseline.pth`)
-2. Run confidence filtering: `python confidence_filtering.py`
+## Pretrained Model
+Download `best_baseline.pth` (trained on 3,657 images): [Google Drive Link]
+
+## Reproducing Results
+1. Request BRACS dataset from official source
+2. Run `confidence_filtering.py` with your own trained model
