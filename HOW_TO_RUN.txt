@@ -1,0 +1,18 @@
+HOW TO REPRODUCE RESULTS
+
+1. Activate environment:
+   cd ~/Desktop/Cancer_Subtyping/Cancer_Subtyping\ 20.13.57
+   source venv/bin/activate
+
+2. Run confidence filtering:
+   python confidence_filtering.py
+
+3. Expected results:
+   - Baseline: 69.55%
+   - Improved at threshold 0.9: 79.07%
+   - Improvement: +9.52%
+
+Requirements:
+   - BRACS dataset in ./data/latest_version/
+   - best_baseline.pth in same folder
+   - Python 3.9+ with torch, torchvision, sklearn, PIL
