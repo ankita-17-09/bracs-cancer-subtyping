@@ -4,7 +4,8 @@
 - **Full dataset** available at: https://www.bracs.icar.cnr.it/ (requires request)
 
 ## Pretrained Model
-Download `best_baseline.pth` (trained on 3,657 images): [Google Drive Link]
+Download `best_baseline.pth` (trained on 3,657 images): https://drive.google.com/file/d/11TnOZluts0pRXiLinBnNNRVU56NiqAcY/view?usp=share_link
+
 
 ## Reproducing Results
 1. Request BRACS dataset from official source
